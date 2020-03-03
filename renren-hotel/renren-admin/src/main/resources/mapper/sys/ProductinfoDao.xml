@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.ProductinfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.ProductinfoEntity" id="productinfoMap">
+        <result property="productid" column="ProductId"/>
+        <result property="producttype" column="ProductType"/>
+        <result property="productname" column="ProductName"/>
+        <result property="productprice" column="ProductPrice"/>
+        <result property="productnumber" column="ProductNumber"/>
+        <result property="productimagepath" column="ProductImagePath"/>
+        <result property="productsalenumber" column="ProductSaleNumber"/>
+        <result property="consumepoint" column="ConsumePoint"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.RoomorderinfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.RoomorderinfoEntity" id="roomorderinfoMap">
+        <result property="orderid" column="OrderId"/>
+        <result property="roomid" column="RoomId"/>
+        <result property="userid" column="UserID"/>
+        <result property="transactor" column="Transactor"/>
+        <result property="deposit" column="Deposit"/>
+        <result property="arrivetime" column="ArriveTime"/>
+        <result property="remarks" column="Remarks"/>
+    </resultMap>
+
+
+</mapper>
